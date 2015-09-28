@@ -1,0 +1,20 @@
+#h1 {
+    height: 15vh;
+    background-color: aqua;
+    text-align: center;
+    }
+ul#header1 li{
+    list-style-type:none;
+    display:inline;
+    margin: 20px 35px;
+    padding: 20px;
+                }
+
+#contact {
+    height: 15vh;
+    background-color: aqua;
+            }
+ul#footer1 li{
+    list-style-type: none;
+    text-align: center;
+                }
