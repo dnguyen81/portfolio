@@ -1,40 +1,49 @@
-#h1 {
+header {
     height: 15vh;
     background-color: aqua;
     text-align: center;
-    }
+    text-decoration: none;
+}
+a {
+    text-decoration: none;
+}
 ul#header1 li{
     list-style-type:none;
     display:inline;
     margin: 20px 35px;
-    padding: 20px;
-                }
+    padding: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
 p.about_me {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 
 }
 ul.skills_wanted {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 li.jobs {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
+    font-size: 28px;
 
 }
 .jobs_description {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 #contact {
-    height: 15vh;
+    height: 15vw;
     background-color: aqua;
-            }
+}
 ul#footer1 li{
     list-style-type: none;
     text-align: center;
-                }
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    padding: 5px;
+}
 @media screen and (max-width: 375px){
     #msg_me {
         width: 100%;
