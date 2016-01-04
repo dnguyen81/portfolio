@@ -1,6 +1,9 @@
+body {
+    background-color: #dfdfdf;
+}
 header {
     height: 15vh;
-    background-color: aqua;
+    /*background-color: aqua;*/
     text-align: center;
     text-decoration: none;
 }
@@ -11,9 +14,9 @@ ul#header1 li{
     list-style-type:none;
     display:inline;
     margin: 20px 35px;
-    padding: 26px;
+    padding: 20px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
+    font-size: 35px;
 }
 p.about_me {
     font-family: Arial, Helvetica, sans-serif;
@@ -35,7 +38,7 @@ li.jobs {
 }
 #contact {
     height: 15vw;
-    background-color: aqua;
+    /*background-color: aqua;*/
 }
 ul#footer1 li{
     list-style-type: none;
