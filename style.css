@@ -5,6 +5,7 @@
 }
 body {
     background-color: #dfdfdf;
+    position: relative;
 }
 ul#header1 li{
     list-style-type:none;
