@@ -1,14 +1,10 @@
+.jumbotron {
+    background-color: #c0c0c0;
+    color: black;
+    padding: 5vw 8vw;
+}
 body {
     background-color: #dfdfdf;
-}
-header {
-    height: 15vh;
-    /*background-color: aqua;*/
-    text-align: center;
-    text-decoration: none;
-}
-a {
-    text-decoration: none;
 }
 ul#header1 li{
     list-style-type:none;
@@ -18,27 +14,13 @@ ul#header1 li{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35px;
 }
-p.about_me {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
+.container-fluid {
+    padding: 5vw 5vw;
+}
+.thumbnail {
+    width: 20vw;
+    height: 8vw;
 
-}
-ul.skills_wanted {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-}
-li.jobs {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 28px;
-
-}
-.jobs_description {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 22px;
-}
-#contact {
-    height: 15vw;
-    /*background-color: aqua;*/
 }
 ul#footer1 li{
     list-style-type: none;
@@ -47,16 +29,6 @@ ul#footer1 li{
     font-size: 24px;
     padding: 5px;
 }
-#form {
-    font-family: Arial, Helvetica, sans-serif;
-    width: 100vw;
-    background-color: grey;
-
-}
-#name #email #msg_me {
-    width: 400px;
-}
-
 @media screen and (max-width: 375px){
     #msg_me {
         width: 100%;
